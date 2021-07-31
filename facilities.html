@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>About - Facilities</title>
+<style>
+body
+{
+background-color: whitesmoke;
+}
+.grid 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.flip-card 
+{
+  background-image: url('bgimg1.jpg');
+  background-attachment: fixed;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin-left: 40px;
+}
+
+.flip-card-inner 
+{
+
+  background-image: url('bgimg1.jpg');
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner 
+{
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-card-front, .flip-card-back 
+{
+  position: absolute;
+  width: 330px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front 
+{
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back 
+{
+  background-color: maroon;
+  color: white;
+  transform: rotateY(180deg);
+}
+.d1 {background-color: maroon;}
+.d1 a 
+{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul 
+{
+  display: inline;
+  margin-right: 0;
+  padding: 0;
+}
+ul li {display: inline-block; transition: height 5s;}
+ul li:hover {background: black;}
+ul li:hover ul {display: block;}
+ul li ul 
+{
+  position: absolute;
+  width: 30%;
+  display: none;
+}
+ul li ul li 
+{ 
+  background: black; 
+  display: block;
+  color: black; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background-color: maroon; transition: 0.1s ease-in-out;}
+
+</style>
+</head>
+
+
+<body>
+
+<!--linking element to home-->
+<div class="d1">
+<ul>
+<li>
+<li>
+<a href="project1.html" title="click to return to home page"><img src="https://image.shutterstock.com/image-vector/minimal-home-icon-web-homepage-260nw-1719939445.jpg" alt="Image" height="25" width="25"></a>
+</li>
+</li>
+</ul>
+</div>
+
+<pre><FONT style="font-size: 50px; color: maroon;"><b>FACILITIES</b></FONT><br>
+<font style="font-size: 25px"></font></pre><br>
+
+<div>
+<section id="team">
+<div class="container">
+<div class="grid">
+
+<figure>    
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="https://xcse.xub.edu.in/wp-content/uploads/2020/05/xcse_facility_1.jpg" alt="Avatar" style="width:330px;height:200px;">
+<figcaption style="font-size: 20px; background-color: whitesmoke; font-family: sans-serif; color: maroon;">Institution of Engineers</figcaption>
+</div>
+<div class="flip-card-back">
+<br>
+<p style="font-size: 22px; font-family: sans-serif;"><b>Xavier University, Bhubaneswar possesses lifetime membership in the Institution of Engineers.</b></p>
+</div>
+</div>
+</div>
+</figure>
+
+<figure>    
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="https://xcse.xub.edu.in/wp-content/uploads/2020/05/xcse_facility_4.jpg" alt="Avatar" style="width:330px;height:200px;">
+<figcaption style="font-size: 20px; background-color: whitesmoke; font-family: sans-serif; color: maroon;">Students' Hostels</figcaption>
+</div>
+<div class="flip-card-back">
+<br>
+<p style="font-size: 22px; font-family: sans-serif;"><b>The outstation students can avail residence facility in the hostels housed in the University Campus</b></p>
+</div>
+</div>
+</div>
+</figure>
+
+<figure>    
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="https://xcse.xub.edu.in/wp-content/uploads/2020/05/xcse_facility_3.jpg" alt="Avatar" style="width:330px;height:200px;">
+<figcaption style="font-size: 20px; background-color: whitesmoke; font-family: sans-serif; color: maroon;">Microsoft Imagine Academy</figcaption>
+</div>
+<div class="flip-card-back">
+<br>
+<p style="font-size: 22px; font-family: sans-serif;"><b>Xavier University holds Microsoft Imagine Academy Membership, which gives access to a large number of learning materials.</b></p>
+</div>
+</div>
+</div>
+</figure>
+
+<figure>    
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="https://xcse.xub.edu.in/wp-content/uploads/2020/05/xcse_facility_1.jpg" alt="Avatar" style="width:330px;height:200px;">
+<figcaption style="font-size: 20px; background-color: whitesmoke; font-family: sans-serif; color: maroon;">Sports and Games</figcaption>
+</div>
+<div class="flip-card-back">
+<br>
+<p style="font-size: 22px; font-family: sans-serif;"><b>World class sports and gym facilities for physical fitness and to grow into sportmanship.</b></p>
+</div>
+</div>
+</div>
+</figure>
+
+
+
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>

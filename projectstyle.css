@@ -1,0 +1,397 @@
+*
+{
+box-sizing: border-box;
+}
+.social1 img 
+{
+	cursor: pointer;
+}
+.social1 img 
+{
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.social1 img:hover
+{
+	transform: scale(1.3);
+}
+
+.alignleft 
+{
+float: left;
+}
+.alignright 
+{
+float: right;
+}
+
+/*below is the code for dropdown list*/
+.d1 {
+	background-color: maroon;
+	}
+.d1 a 
+{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul 
+{
+  display: inline;
+  margin-right: 0;
+  padding: 0;
+}
+ul li {display: inline-block; transition: height 5s;}
+ul li:hover {background: black;}
+ul li:hover ul {display: block;}
+ul li ul 
+{
+  position: absolute;
+  width: 30%;
+  display: none;
+}
+ul li ul li 
+{ 
+  background: black; 
+  display: block;
+  color: black; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background-color: maroon; transition: 0.1s ease-in-out;}
+
+.d2 
+{
+background-image: url('bgimg1.jpg');
+background-attachment: fixed;
+}
+
+.d3 
+{
+background-image: url('bgimg1.jpg');
+background-attachment: fixed;
+text-align: right;
+}
+
+/*code for the button*/
+.button1
+{
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+.button1
+{
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: white; 
+  color: maroon; 
+  border: 2px solid #800000;
+}
+
+.button1:hover 
+{
+  background-color: #800000;
+  color: white;
+}
+
+/*the below code works with the container class*/
+#container1 img 
+{
+	cursor: pointer;
+}
+#container1 img 
+{
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+#container1 img:hover
+{
+	transform: scale(1.15);
+}
+
+.container
+{
+max-width: 100%;
+display: flex;
+background: whitesmoke;
+padding: 50px;
+box-sizing: border-box;
+flex-direction: row;
+}
+
+#container1
+{
+flex: 1;
+background: gray;
+padding: 30px;
+font-size: 20px;
+font-family: sans-serif;
+margin: 15px;
+color: white;
+}
+
+@media screen and (max-width: 768px)
+{
+.container
+{
+flex-direction: column-reverse;
+}
+}
+
+.containerX
+{
+max-width: 100%;
+display: flex;
+background: gray;
+padding: 50px;
+box-sizing: border-box;
+flex-direction: row;
+}
+@media screen and (max-width: 768px)
+{
+.containerX
+{
+flex-direction: column-reverse;
+}
+}
+
+#containerX1 img 
+{
+	cursor: pointer;
+}
+#containerX1 img 
+{
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+#containerX1 img:hover
+{
+	transform: scale(1.15);
+}
+
+#containerX1
+{
+flex: 1;
+background: whitesmoke;
+padding: 30px;
+font-size: 20px;
+font-family: sans-serif;
+margin: 15px;
+color: black;
+}
+
+/*admissions section*/
+.grid 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.flip-card 
+{
+  background-image: url('bgimg1.jpg');
+  background-attachment: fixed;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin-left: 40px;
+}
+
+.flip-card-inner 
+{
+
+  background-image: url('bgimg1.jpg');
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner 
+{
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-card-front, .flip-card-back 
+{
+  position: absolute;
+  width: 330px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front 
+{
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back 
+{
+  background-color: maroon;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*achievements section styling*/
+.wrapper
+{
+  margin-top: 10%;
+}
+
+.wrapper h1
+{
+  font-family: cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team
+{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member
+{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3
+{
+  color: maroon;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role
+{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img
+{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.team .team_member .team_img img
+{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}	
+
+.team_img img 
+{
+	cursor: pointer;
+}
+.team_img img 
+{
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.team_img img:hover
+{
+	transform: scale(1.2);
+}
+
+/*write us section*/
+input[type=text], select, textarea 
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input:hover 
+{
+  background-color: gray;
+}
+
+.containerY
+{
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 10px;
+  background-image: url('');
+}
+
+
+.column 
+{
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .column, input
+  {
+    width: 100%;
+    margin-top: 0;
+  }
+}

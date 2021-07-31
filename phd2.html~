@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Programs - Ph.D CSE [Part-Time]</title>
+<style>
+body
+{
+background-color: whitesmoke;
+}
+.d3 img
+{
+background-attachment: fixed;
+text-align: right;
+}
+
+.d1 {background-color: maroon;}
+.d1 a 
+{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul 
+{
+  display: inline;
+  margin-right: 0;
+  padding: 0;
+}
+ul li {display: inline-block; transition: height 5s;}
+ul li:hover {background: black;}
+ul li:hover ul {display: block;}
+ul li ul 
+{
+  position: absolute;
+  width: 30%;
+  display: none;
+}
+ul li ul li 
+{ 
+  background: black; 
+  display: block;
+  color: black; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background-color: maroon; transition: 0.1s ease-in-out;}
+</style>
+</head>
+
+<body>
+
+<!--linking element to home-->
+<div class="d1">
+<ul>
+<li>
+<li>
+<a href="project1.html" title="click to return to home page"><img src="https://image.shutterstock.com/image-vector/minimal-home-icon-web-homepage-260nw-1719939445.jpg" alt="Image" height="25" width="25"></a>
+</li>
+</li>
+</ul>
+</div>
+
+
+<center style="color:maroon; font-family:sans-serif; font-size:40px; margin:0;"><pre><b>Ph.D CSE [Part-Time]</b></pre></center>
+
+<pre><font style="font-size: 300%; color: maroon;"><b>Research at Xavier University</b></font></pre>
+<div class="d2">
+<p>
+<img src="https://xcse.xub.edu.in/wp-content/uploads/2020/06/phd_full_time.jpg" alt="Error loading image"
+height="280" width="500" align="right"><br><br><br><font style="font-size: 150%;">
+Xavier University  views research as an activity where our core institutional values are expressed clearly. At Xavier University, Bhubaneswar we recognize the need to participate in the global academic environment through high quality publications. At the same time, research at Xavier University, Bhubaneswar is also driven by the need to engage with specific clients and user groups, in accordance with our vision and values.
+In order that research activities at the University may add up to create a big picture consistent with our vision, Xavier University, Bhubaneswar provides various institutional mechanisms to promote information sharing, shared understanding, extended research-oriented engagements with potential clients/users, and meaningful collaborations. overall, research at Xavier University, Bhubaneswar seek the exciting frontiers of capacity building, social innovation, collective intelligence, human development, and such other ends as relevant to the mission of the various schools under the university.
+</font>
+</p>
+</div><br><br><br><br><br><br><br>
+
+<pre><font style="font-size: 300%; color: maroon;"><b>DOCTOR OF PHILOSOPHY (Ph.D) PROGRAM OVERVIEW</b></font></pre>
+<div class="d3">
+<p>
+<img src="https://xcse.xub.edu.in/wp-content/uploads/elementor/thumbs/part_time_1-oq9lsh6p1jjwul8f8dq3fkcwkd9f9r7u40yengywwg.jpg" alt="Error loading image" 
+height="380" width="500" align="left"><br><br><br><font style="font-size: 150%;">
+The ‘Doctor of Philosophy’ (Ph.D) program, intended to prepare the participants for teaching and research positions both within and outside academia. The participants who complete the program successfully are conferred the designation of “Doctor of Philosophy in Computer Science & Engineering, Xavier University, Bhubaneswar”.  Our Scholars are expected to be specialists in their respective fields and capable of generating new knowledge that contributes to the development of management thinking and practice.
+The program draws upon Indian and global experience in doctoral education in management and various related fields. The program is also designed to serve as a venue for nurturing various academic debates concerning research. The program structure includes a significant component of research training, facilitated by both in-house and visiting researchers. Ph.D Scholars are expected to develop deep understanding in the areas of research selected by them. They also get a structured exposure to a range of management topics, develop various professional skills, and participate in the Institute’s academic activities. The Institute supports participation in academic conferences and publication of one’s work in scholarly media.
+</div><br><br><br><br><br>
+
+
+
+</body>
+</html>
